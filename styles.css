@@ -1,0 +1,100 @@
+.attribution { font-size: 11px; text-align: center; }
+
+.attribution a { color: hsl(228, 45%, 44%); }
+img{
+    height: 400px;
+    width: 300px;
+    border-radius: 10px;
+}
+.div-1{
+    background-color: papayawhip;
+}
+.div-2{
+    background-color: white;
+}
+
+
+h1{
+   position: absolute;
+   left: 350px;
+   bottom: 570px;
+   font-family: 'fraunces';
+   font-weight: 700;
+   
+}
+
+h4{
+    position: absolute;
+   left: 350px;
+   bottom: 700px;
+   font-weight: lighter;
+   color: gray;
+}
+h5{
+    position: absolute;
+   left: 350px;
+   bottom: 380px;
+   font-size: 30px;
+   color: rgb(39, 91, 62) ;
+}
+h6{
+    position: absolute;
+    left: 470px;
+    bottom: 415px;
+    text-decoration: line-through;
+    color: gray;
+}
+p{
+    position: absolute;
+    left: 350px;
+    bottom: 480px; 
+    font-size: 14px;
+    font-family: 'montserrat';
+    font-weight: lighter;
+    color: gray;
+    
+}
+.btn{
+    
+    background-color: rgb(39, 91, 62);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 10px 50px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.5s;
+    margin: 5px;
+    cursor: pointer;
+    position: absolute;
+    bottom: 370px;
+    left: 350px;
+}
+
+.btn:hover{
+    background-color:darkcyan;
+}
+.btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .btn span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .btn:hover span {
+    padding-right: 25px;
+  }
+  
+  .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
